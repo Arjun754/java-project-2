@@ -1,2 +1,5 @@
-hlo this is git
-hlo hjjdj
+FROM openjdk:11
+copy ./usr/src/my app
+WORKDIR/usr/src/my app
+RUN java main.java
+CMD ["java","main"]
